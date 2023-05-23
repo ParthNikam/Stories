@@ -90,7 +90,7 @@ const Form = ({ currentId, setCurrentId }) => {
           label="tags"
           value={postData.tags}
           fullWidth
-          onChange={(e) => setPostData({ ...postData, tags: e.target.value })}
+          onChange={(e) => setPostData({ ...postData, tags: e.target.value.split(',') })}
         />
 
         {/* FileInput */}
@@ -110,8 +110,7 @@ const Form = ({ currentId, setCurrentId }) => {
           variant="contained"
           color="primary"
           size="large"
-        >
-          Submit
+        >Submit
         </Button>
         
         <Button
@@ -121,8 +120,7 @@ const Form = ({ currentId, setCurrentId }) => {
           color="secondary"
           size="small"
           onClick={clear}
-        >
-          Clear
+        >Clear
         </Button>
       </form>
     </Paper>
