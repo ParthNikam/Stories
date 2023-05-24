@@ -1,6 +1,6 @@
 # Stories
 
-<img src="../client/images/stories.png" width="450px"></img>
+<img src"client/src/images/stories.png" width="450px"></img>
 
 ## Useful Links
 - [Understanding useState and useEffect](https://medium.com/recraftrelic/usestate-and-useeffect-explained-cdb5dc252baf)
