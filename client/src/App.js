@@ -9,10 +9,18 @@ import useStyles from './styles';
 import { getPosts } from './actions/posts';
 
 const App = function () {
+  // useState returns an item and updater fucntion setItem.
+  // the item is a variable that stores the value of the state
+  // setItem is used to update the value of the item
   const [currentId, setCurrentId] = useState(null);
   const classes = useStyles();
+  // dispatch is used to tirgger the state update process
+  // it sends the action to all the reducers 
   const dispatch = useDispatch();
 
+  // useEffect is used responding to changes in the component lifecycle -> for mounting, re-rednering and unmounting the DOM 
+  // By including currentId and dispatch as dependencies, the effect will re-run whenever either currentId or dispatch changes
+  // ensuring that the getPosts() action is dispatched when these dependencies change.
   useEffect(() => {
     dispatch(getPosts());
   }, [currentId, dispatch])
