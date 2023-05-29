@@ -1,6 +1,6 @@
 # Stories
 
-<img src="../client/src/images/stories.png" width="250px">
+<img src="./client/src/images/stories.png" width="250px">
 
 ## MERN App Architecture
 ![MERN App Architecture](./MERNAppArchitecture.pdf)
