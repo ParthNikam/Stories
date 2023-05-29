@@ -1,6 +1,6 @@
 # Stories
 
-<img src="../client/images/stories.png" width="450px"></img>
+<img src="../client/images/stories.png" width="450px">
 
 ## MERN App Architecture
 ![MERN App Architecture](./MERNAppArchitecture.pdf)
@@ -13,8 +13,6 @@
 - [Redux Store API Reference](https://redux.js.org/api/store)
 - [Combining Reducers in Redux](https://redux.js.org/api/combinereducers)
 
-## MERN App Architecture
-![MERN App Architecture](./MERNAppArchitecture.pdf)
 
 ## Getting Started
 Follow these steps to run the project:
