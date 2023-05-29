@@ -1,6 +1,9 @@
 # Stories
 
-<img src="client/src/images/stories.png" width="250px">
+<img src="../client/images/stories.png" width="450px"></img>
+
+## MERN App Architecture
+![MERN App Architecture](./MERNAppArchitecture.pdf)
 
 ## Useful Links
 - [Understanding useState and useEffect](https://medium.com/recraftrelic/usestate-and-useeffect-explained-cdb5dc252baf)
@@ -11,7 +14,7 @@
 - [Combining Reducers in Redux](https://redux.js.org/api/combinereducers)
 
 ## MERN App Architecture
-[MERN App Architecture](MERNAppArchitecture.pdf)
+![MERN App Architecture](./MERNAppArchitecture.pdf)
 
 ## Getting Started
 Follow these steps to run the project:
